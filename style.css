@@ -7,8 +7,80 @@
   padding: 0;
 }
 body {
-  background: radial-gradient(ellipse at top, #e66465, transparent),
-    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
-  color: aliceblue;
+  background: radial-gradient(ellipse at top, #463c3c, transparent),
+    radial-gradient(ellipse at bottom, #304974, transparent);
+  color: rgb(244, 234, 234);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: (vw);
+  margin: 50px 0;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 450px;
+}
+
+form label {
+  display: block;
+  font-size: 25px;
+}
+
+form button {
+  font-size: 20px;
+  padding: 15px;
+}
+
+form input {
+  width: 100%;
+  font-size: 20px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.liste-todo {
+  list-style-type: none;
+  margin: 20px auto 0;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1200px;
+  min-width: 450px;
+}
+
+li {
+  font-size: 20px;
+  width: 100%;
+  background: cornflowerblue;
+  align-items: center;
+  padding: 5px;
+  color: crimson;
+  margin: 5px 0;
+}
+
+li input {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+}
+li button {
+  margin-left: auto;
+  padding: 5px;
+}
+button img {
+  width: 40px;
+}
+li span {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+/* anmiation de la rayuere */
+
+li.finDeTache span {
+  text-decoration: line-through;
 }
