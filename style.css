@@ -1,0 +1,14 @@
+/** @format */
+
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
